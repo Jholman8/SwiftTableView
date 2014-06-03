@@ -13,6 +13,7 @@
 		3FE21EFF193E27EE00D51064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE21EFD193E27EE00D51064 /* Main.storyboard */; };
 		3FE21F01193E27EF00D51064 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE21F00193E27EF00D51064 /* Images.xcassets */; };
 		3FE21F0D193E27EF00D51064 /* SwiftTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE21F0C193E27EF00D51064 /* SwiftTableViewTests.swift */; };
+		3FE21F17193E2EE800D51064 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE21F16193E2EE800D51064 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3FE21F06193E27EF00D51064 /* SwiftTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE21F0B193E27EF00D51064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FE21F0C193E27EF00D51064 /* SwiftTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTableViewTests.swift; sourceTree = "<group>"; };
+		3FE21F16193E2EE800D51064 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				3FE21EF6193E27EE00D51064 /* AppDelegate.swift */,
 				3FE21EFB193E27EE00D51064 /* ViewController.swift */,
+				3FE21F16193E2EE800D51064 /* DetailViewController.swift */,
 				3FE21EFD193E27EE00D51064 /* Main.storyboard */,
 				3FE21F00193E27EF00D51064 /* Images.xcassets */,
 				3FE21EF8193E27EE00D51064 /* SwiftTableView.xcdatamodeld */,
@@ -214,6 +217,7 @@
 				3FE21EFC193E27EE00D51064 /* ViewController.swift in Sources */,
 				3FE21EF7193E27EE00D51064 /* AppDelegate.swift in Sources */,
 				3FE21EFA193E27EE00D51064 /* SwiftTableView.xcdatamodeld in Sources */,
+				3FE21F17193E2EE800D51064 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
